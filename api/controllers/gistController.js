@@ -98,5 +98,7 @@ exports.starred_gists = function (req, res) {
         })
         .then((response) => {
             return res.json(response);
+        }).catch((err)=>{
+            return res.status(500).json({ success: false, message: err });
         })
 }
