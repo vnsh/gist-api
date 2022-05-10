@@ -3,7 +3,6 @@
 
 This is a very basic nodejs app which contains wrapper for github gist apis. 
 
-
 ## Dependencies
 
 
@@ -88,3 +87,7 @@ Note : If you are not comfortable with sqlite and want any other database, just 
 ```http
   GET /v1/gists/
 ```
+
+#### Loom Video - Demo of the API is here
+
+https://www.loom.com/share/768e7e9c017846beb114b3e4e32a905b
